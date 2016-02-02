@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22BB8C71C6090F200E3A26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BB8C61C6090F200E3A26D /* AppDelegate.swift */; };
+		D22BB8C91C6090F200E3A26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BB8C81C6090F200E3A26D /* ViewController.swift */; };
+		D22BB8CC1C6090F200E3A26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22BB8CA1C6090F200E3A26D /* Main.storyboard */; };
+		D22BB8CF1C6090F200E3A26D /* SmogApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D22BB8CD1C6090F200E3A26D /* SmogApp.xcdatamodeld */; };
+		D22BB8D11C6090F200E3A26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22BB8D01C6090F200E3A26D /* Assets.xcassets */; };
+		D22BB8D41C6090F200E3A26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22BB8D21C6090F200E3A26D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D22BB8C31C6090F200E3A26D /* SmogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22BB8C61C6090F200E3A26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D22BB8C81C6090F200E3A26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D22BB8CB1C6090F200E3A26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D22BB8CE1C6090F200E3A26D /* SmogApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmogApp.xcdatamodel; sourceTree = "<group>"; };
+		D22BB8D01C6090F200E3A26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22BB8D31C6090F200E3A26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D22BB8D51C6090F200E3A26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22BB8C01C6090F200E3A26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22BB8BA1C6090F200E3A26D = {
+			isa = PBXGroup;
+			children = (
+				D22BB8C51C6090F200E3A26D /* SmogApp */,
+				D22BB8C41C6090F200E3A26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22BB8C41C6090F200E3A26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22BB8C31C6090F200E3A26D /* SmogApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22BB8C51C6090F200E3A26D /* SmogApp */ = {
+			isa = PBXGroup;
+			children = (
+				D22BB8C61C6090F200E3A26D /* AppDelegate.swift */,
+				D22BB8C81C6090F200E3A26D /* ViewController.swift */,
+				D22BB8CA1C6090F200E3A26D /* Main.storyboard */,
+				D22BB8D01C6090F200E3A26D /* Assets.xcassets */,
+				D22BB8D21C6090F200E3A26D /* LaunchScreen.storyboard */,
+				D22BB8D51C6090F200E3A26D /* Info.plist */,
+				D22BB8CD1C6090F200E3A26D /* SmogApp.xcdatamodeld */,
+			);
+			path = SmogApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22BB8C21C6090F200E3A26D /* SmogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22BB8D81C6090F200E3A26D /* Build configuration list for PBXNativeTarget "SmogApp" */;
+			buildPhases = (
+				D22BB8BF1C6090F200E3A26D /* Sources */,
+				D22BB8C01C6090F200E3A26D /* Frameworks */,
+				D22BB8C11C6090F200E3A26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmogApp;
+			productName = SmogApp;
+			productReference = D22BB8C31C6090F200E3A26D /* SmogApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22BB8BB1C6090F200E3A26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Piotr Torczyski";
+				TargetAttributes = {
+					D22BB8C21C6090F200E3A26D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D22BB8BE1C6090F200E3A26D /* Build configuration list for PBXProject "SmogApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22BB8BA1C6090F200E3A26D;
+			productRefGroup = D22BB8C41C6090F200E3A26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22BB8C21C6090F200E3A26D /* SmogApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22BB8C11C6090F200E3A26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22BB8D41C6090F200E3A26D /* LaunchScreen.storyboard in Resources */,
+				D22BB8D11C6090F200E3A26D /* Assets.xcassets in Resources */,
+				D22BB8CC1C6090F200E3A26D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22BB8BF1C6090F200E3A26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22BB8C91C6090F200E3A26D /* ViewController.swift in Sources */,
+				D22BB8CF1C6090F200E3A26D /* SmogApp.xcdatamodeld in Sources */,
+				D22BB8C71C6090F200E3A26D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D22BB8CA1C6090F200E3A26D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22BB8CB1C6090F200E3A26D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D22BB8D21C6090F200E3A26D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22BB8D31C6090F200E3A26D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22BB8D61C6090F200E3A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D22BB8D71C6090F200E3A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D22BB8D91C6090F200E3A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sointeractive.SmogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D22BB8DA1C6090F200E3A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sointeractive.SmogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22BB8BE1C6090F200E3A26D /* Build configuration list for PBXProject "SmogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22BB8D61C6090F200E3A26D /* Debug */,
+				D22BB8D71C6090F200E3A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22BB8D81C6090F200E3A26D /* Build configuration list for PBXNativeTarget "SmogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22BB8D91C6090F200E3A26D /* Debug */,
+				D22BB8DA1C6090F200E3A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D22BB8CD1C6090F200E3A26D /* SmogApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D22BB8CE1C6090F200E3A26D /* SmogApp.xcdatamodel */,
+			);
+			currentVersion = D22BB8CE1C6090F200E3A26D /* SmogApp.xcdatamodel */;
+			path = SmogApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D22BB8BB1C6090F200E3A26D /* Project object */;
+}
